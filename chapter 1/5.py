@@ -33,4 +33,4 @@ def build_letter_count(word):
             answer[c] = 1
     return answer
 
-print(edits('abde','abce'))
+print(edits('pale','ple'))
