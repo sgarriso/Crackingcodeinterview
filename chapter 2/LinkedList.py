@@ -49,3 +49,12 @@ class SLinkedList:
         while (printval):
             print(printval.data),
             printval = printval.next
+
+    def length(self):
+        printval = self.head
+        length = 0
+        while (printval):
+            #print(printval.data),
+            length = length + 1
+            printval = printval.next
+        return length
