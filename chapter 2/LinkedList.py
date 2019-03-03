@@ -11,6 +11,13 @@ class SLinkedList:
         NewNode = Node(data_in)
         NewNode.next = self.head
         self.head = NewNode
+    def rev(self):
+    node = self.head
+    list = SLinkedList()
+    while node:
+        list.Atbegining(node.data)
+        node = node.next
+    return list
 		
 # Function to remove node
     def RemoveNode(self, Removekey):
